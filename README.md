@@ -10,4 +10,3 @@ The words we use shape our thinking, words for Universal Core are:
     * Essential life changing content.
     * Collaboration & Partnerships
     * Sustainable
-
