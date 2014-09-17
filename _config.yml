@@ -1,12 +1,14 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Universal Core
+description: Access to Basic Information is a Human Right.
+meta_description: >
+    The worlds best information available for free for every
+    human being on the planet with a cell phone.
 
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 logo: false
 paginate: 15
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://praekelt.github.io/unicore'
+author:         'Praekelt Foundation'
