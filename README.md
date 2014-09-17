@@ -1,38 +1,30 @@
-# Kasper
+Universal Core
+==============
 
-This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
-Feel free to fork, change, modify and re-use it.
+The words we use shape our thinking, words for Universal Core are:
 
-## How to use it
+ * Global & Universal
+ * Information & access & human rights
+ * Decentralized & transparent
+ * Mobile, low resource context.
+ * Essential life changing content.
+ * Collaboration & Partnerships
+ * Sustainable
 
-Simply clone this repository, and then run `jekyll -w serve` inside the directory.
+Promoting Roadmap Features
+--------------------------
 
-Kasper theme includes:
+[Template to use](https://github.com/praekelt/unicore/issues/new/?body=%23%23%23+Is+there+clear+value+to+clients%2Fusers+%28the+grandma+test%29%3F%0A%0A%23%23%23+Have+real-world+users+been+consulted+in+designing+the+feature%3F%0A%0A%23%23%23+Can+it+be+measured%3F%0A%0A%23%23%23+Can+be+shipped+in+2-4+weeks%3F%0A%0A%23%23%23+Has+a+mockup+been+created%3F%0A%0A%23%23%23+Did+we+pivot%3F%0A%0A%23%23%23+Is+it+coupled+to+a+project%3F%0A%0A%23%23%23+Is+it+bloggable%2Fslackable%2Ftweetable%3F%0A%0A%23%23%23+Compound+value%2C+will+it+be+used+elsewhere%3F%0A%0A%23%23%23+Has+a+partner+or+client+be+consulted%2C+interviewed%3F) when promoting a UC roadmap feature:
 
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
+1. Is there clear value to clients/users (the grandma test)?
+2. Have real-world users been consulted in designing the feature?
+3. Can it be measured?
+4. Can be shipped in 2-4 weeks?
+5. Has a mockup been created?
+6. Did we pivot?
+7. Is it coupled to a project?
+8. Is it bloggable/slackable/tweetable?
+9. Compound value, will it be used elsewhere?
+10. Has a partner or client be consulted, interviewed?
 
-## Screenshots
-
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
-
-
-## Thanks 
-Most of the work as been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things for specifid to Jekyll and some minor style changes.
-
-## Copyright & License
-
-Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[![Stories in Ready](https://badge.waffle.io/praekelt/unicore.svg?label=ready&title=Ready)](http://waffle.io/praekelt/unicore)
