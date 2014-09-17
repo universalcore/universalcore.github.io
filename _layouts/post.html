@@ -8,7 +8,7 @@ archive: false
 
     <article class="post">
         <header class="post-header">
-            <a id="blog-logo" href="{{site.baseurl}}">
+            <a id="blog-logo" href="{{site.baseurl}}/">
                 {% if site.logo %}
                     <img src="{{site.logo}}" alt="{{ site.name }}" />
                 {% else %}
@@ -48,7 +48,7 @@ archive: false
         	<!-- If we want to display author's name and bio -->
             {% if site.author %}
                 <section class="author">
-                	<!-- <header> <a href="{{ site.baseurl }}"> <img class="profile" src="/assets/images/profile.png" alt="Author's profile picture"></a></header> -->
+                	<!-- <header> <a href="{{ site.baseurl }}"> <img class="profile" src="{{site.baseurl}}/assets/images/profile.png" alt="Author's profile picture"></a></header> -->
                 	<article>
                 		<!-- Author Name -->
                     	<h4> {{ site.author }} </h4>
