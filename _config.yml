@@ -1,5 +1,7 @@
-name: Universal Core
-description: Access to Basic Information is a Human Right.
+name: Access to Basic Information is a Human Right.
+description: >
+    The worlds best information available for free for every
+    human being on the planet with a cell phone.
 meta_description: >
     The worlds best information available for free for every
     human being on the planet with a cell phone.
@@ -7,7 +9,7 @@ meta_description: >
 markdown: redcarpet
 highlighter: pygments
 logo: false
-paginate: 15
+paginate: 5
 baseurl: /unicore
 
 # Details for the RSS feed generator

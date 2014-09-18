@@ -1,59 +1,30 @@
 ---
-layout: default
+layout: home
 title: Home
-cover: false
-about: 'about.html'
 ---
 
-<header class="site-head" {% if page.cover %} style="background-image: url({{ page.cover }})"{% endif %}>
-    <div class="vertical">
-        <div class="site-head-content" class="inner">
-            {% if page.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}/">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
-            <h1 class="blog-title">{{ site.name }}</h1>
-            <h2 class="blog-description">
-                {{ site.description }}
-            </h2>
-        </div>
-    </div>
-</header>
+Universal Core
+--------------
 
-<main class="content" role="main">
+With over 7 billion active mobile phone connections on the planet,
+a large proportion of the world’s population still lives without
+access to essential information.
 
-    {% for post in paginator.posts %}
+Several resources have been launched successfully over the last
+few years proving that information can be delivered at scale at very
+low cost to the end user.
 
-    <article class="post">
-        <header class="post-header">
-            <span class="post-meta"><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_string }}</time> {{!tags prefix="on "}}</span>
-            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+Projects such as [MAMA](http://askmama.mobi), [UReport](http://ureport.ug),
+[Facebook](http://en.wikipedia.org/wiki/Facebook_Zero) and
+[Wikipedia Zero](http://en.wikipedia.org/wiki/Wikipedia_Zero) have
+demonstrated that complex, life-enhancing information can be structured
+to be accessible on low-end handsets without data capability.
 
-        </header>
-        <section class="post-excerpt">
-            {{ post.excerpt }}
-        </section>
-    </article>
+The Goal
+--------
 
-    {% endfor %}
-
-    <nav class="pagination" role="pagination">
-
-        {% if paginator.previous_page %}
-          {% if paginator.previous_page == 1 %}
-          <a class="newer-posts" href="{{site.baseurl}}/" title="Previous Page">&laquo; Newer Posts</a>
-          {% else %}
-          <a class="newer-posts" href="{{site.baseurl}}/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
-          {% endif %}
-        {% endif %}
-
-        <span class="page-number"> Page {{paginator.page}} of {{paginator.total_pages}} </span>
-
-        {% if paginator.next_page %}
-        <a class="older-posts" href="{{site.baseurl}}/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
-        {% endif %}
-    </nav>
-
-
-</main>
+Provide essential, life-enhancing information for free in low resource
+settings, while strengthening the capacity of development partners
+(MDAs, NGOs) to effectively and efficiently deliver social development
+content through an existing location-appropriate, scalable, mobile
+technology infrastructure.
