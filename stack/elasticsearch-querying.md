@@ -191,6 +191,9 @@ And specify a custom ordering
     Bar 25
     Foo 25
 
+This just scratches the surface on what [Elasticsearch][Elasticsearch] and
+[elasticutils][elasticutils] can do. Please check the invididual sites for
+more documentation on analyzing, indexing and querying.
 
 [git]: http://git-scm.com
 [elastic-git]: http://elastic-git.rtfd.org
