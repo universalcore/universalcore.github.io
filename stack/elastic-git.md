@@ -28,6 +28,8 @@ and running, the following code will set that up for you:
 
 {% gist smn/306ddb1c3a4654ec4a7f setup.sh %}
 
+Note that you also need to have [Elasticsearch][es] running.
+
 # The workspace
 
 The workspace is an object that EG provides which provides a single point
