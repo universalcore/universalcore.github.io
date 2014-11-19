@@ -8,7 +8,7 @@ Universal Core's guiding principles around decentralization have
 significant implications on how content is authored, distributed and
 published.
 
-Feature list for this work is maintained using [GitHub milestones](https://github.com/praekelt/unicore/milestones/15%20-%2026%20September).
+Feature list for this work is maintained using [GitHub milestones](https://github.com/universalcore/unicore/milestones).
 
 ***
 
