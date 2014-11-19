@@ -14,3 +14,4 @@ Everything is being developed under the Open-Source software under the
 
 - [Post management and publishing infrastructure]({{site.baseurl}}/stack/publishing-infrastructure.html).
 - [Elasticsearch & Querying]({{site.baseurl}}/stack/elasticsearch-querying.html).
+- [Elastic-Git]({{site.baseurl}}/stack/elastic-git.html).
