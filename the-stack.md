@@ -12,5 +12,5 @@ in order to start fulfilling the principles of Universal Core.
 Everything is being developed under the Open-Source software under the
 [BSD license](https://github.com/praekelt/unicore/blob/develop/LICENSE).
 
-Follow progress on the individual components on our
-[roadmap]({{site.baseurl}}/roadmap.html).
+- [Post management and publishing infrastructure]({{site.baseurl}}/stack/publishing-infrastructure.html).
+- [Elasticsearch & Querying]({{site.baseurl}}/stack/elasticsearch-querying.html).
