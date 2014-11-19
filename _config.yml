@@ -1,0 +1,17 @@
+name: Access to Basic Information is a Human Right.
+description: >
+    Providing essential, life-enhancing information for
+    every human being on the planet that has a cell phone.
+meta_description: >
+    Access to Basic Information is a Human Right.
+    Providing essential, life-enhancing information for
+    every human being on the planet that has a cell phone.
+
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 5
+
+# Details for the RSS feed generator
+url:            'http://praekelt.github.io/unicore/'
+author:         'Praekelt Foundation'
