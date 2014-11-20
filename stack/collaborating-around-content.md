@@ -87,7 +87,39 @@ looks like this:
 
 Now we have a model definition that we can use in [EG][eg] to query the data.
 
+# Interacting with the data
+
+What running the follow commands clones a sample content repository and
+indexes the data in Elasticsearch:
+
+{% gist smn/5d71300ef8e2e016802a clone-repo.sh %}
+
+This should print something like the following:
+
+{% gist smn/5d71300ef8e2e016802a clone-repo.log %}
+
+Next we can fire up a shell with python shell with [EG] loaded to explore our
+freshly indexed content! The [EG] *shell* helper automatically detects
+what data is in your repository, creates a workspace for you and loads
+the relevant Python model definitions we generated earlier from the
+[Avro][avro] spec:
+
+{% gist smn/5d71300ef8e2e016802a shell.log %}
+
+Here are some example queries:
+
+{% gist smn/5d71300ef8e2e016802a filter_categories.py %}
+
+Now we have list of UUIDs for categories and we can ask [EG] for pages
+that have that category set as its *primary_category*:
+
+{% gist smn/5d71300ef8e2e016802a filter_pages.py %}
+
+At this point I would recommend starting to read the source code of the
+[unicore-cms][unicore-cms] repository as you now have all the information
+you need in order to understand how it accesses the data stored in Git.
 
 [content-repos]: https://github.com/universalcore/?query=unicore-cms-content
 [avro]: http://avro.apache.org/docs/1.7.7/spec.html
 [eg]: http://elastic-git.rtfd.org
+[unicore-cms]: http://github.com/universalcore/unicore-cms
