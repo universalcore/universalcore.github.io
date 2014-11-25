@@ -175,6 +175,20 @@ from Python.
     foo
     >>> workspace.destroy()
 
+# Using the fixture helpers
+
+Here is an example of using the `create_pages` and `create_categories`
+helpers in the [UnicoreTestCase][UnicoreTestCase] base class:
+
+{% gist smn/5e78b96cbc8d46c6a261 test4.py %}
+
+You'll notice two things:
+
+1. We're not passing a `name` parameter to the `mk_workspace()` function call.
+   Read the source of [UnicoreTestCase][UnicoreTestCase] to find out how it
+   is still able to generate a unique repository for the individual tests.
+
+2. We're using `setUp` in the `PageTest`.
 
 [tutorial]: http://pymotw.com/2/unittest/index.html
 [UnicoreTestCase]: https://github.com/universalcore/unicore-cms/blob/develop/cms/tests/base.py
