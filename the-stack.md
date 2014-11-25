@@ -16,3 +16,4 @@ Everything is being developed under the Open-Source software under the
 - [Elasticsearch & Querying]({{site.baseurl}}/stack/elasticsearch-querying.html).
 - [Elastic-Git]({{site.baseurl}}/stack/elastic-git.html).
 - [Collaborating around content]({{site.baseurl}}/stack/collaborating-around-content.html).
+- [Development and Testing]({{site.baseurl}}/stack/development-and-testing.html).
