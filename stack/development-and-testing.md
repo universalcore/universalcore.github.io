@@ -140,6 +140,8 @@ We can look at the `Person` JSON files created:
 
     (ve)$ ls .test_repos/test_creating_a_person/models/Person/
     590849dd7ddb4ef38ff58afff893a6bd.json
+
+
     (ve)$ cat .test_repos/test_creating_a_person/models/Person/590849dd7ddb4ef38ff58afff893a6bd.json
     {
       "age": 25,
