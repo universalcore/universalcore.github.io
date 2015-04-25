@@ -17,3 +17,4 @@ Everything is being developed under the Open-Source software under the
 - [Elastic-Git]({{site.baseurl}}/stack/elastic-git.html).
 - [Collaborating around content]({{site.baseurl}}/stack/collaborating-around-content.html).
 - [Development and Testing]({{site.baseurl}}/stack/development-and-testing.html).
+- [Existing packages and their technologies]({{site.baseurl}}/stack/existing-packages-and-technologies.html).
